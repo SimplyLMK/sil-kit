@@ -31,3 +31,11 @@ CMakeUserPresets.json
 
 #ignore vim swap files
 *.swp
+
+# Large data files
+data/imu_stream.csv
+data/binary/X_train_noisy.bin
+
+# Build artifacts and object archives
+build/
+*.a
