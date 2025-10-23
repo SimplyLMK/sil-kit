@@ -1,0 +1,1 @@
+-I"D:/SIL/sil-kit/SilKit/include" -I"D:/SIL/sil-kit/SilKit/IntegrationTests/SimTestHarness" -isystem "D:/SIL/sil-kit/ThirdParty/googletest/googletest/include" -isystem "D:/SIL/sil-kit/ThirdParty/googletest/googletest" -isystem "D:/SIL/sil-kit/ThirdParty/googletest/googlemock/include" -isystem "D:/SIL/sil-kit/ThirdParty/googletest/googlemock"

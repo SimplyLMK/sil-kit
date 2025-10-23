@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc S_ITests_STH.a CMakeFiles/S_ITests_STH.dir/SimTestHarness.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe S_ITests_STH.a

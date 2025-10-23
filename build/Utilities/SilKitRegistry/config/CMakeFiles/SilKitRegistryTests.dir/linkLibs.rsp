@@ -1,0 +1,1 @@
+ ../../../lib/libgtest.a ../../../lib/libgmock.a ../../../SilKit/source/S_SilKitImpl.a ../../../lib/libgtest.a ../../../ThirdParty/_tp_spdlog/libspdlog.a -lwsock32 -lws2_32 ../../../ThirdParty/_tp_fmt/libfmt.a "../../../ThirdParty/_tp_rapidyaml/librapidyaml-static.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

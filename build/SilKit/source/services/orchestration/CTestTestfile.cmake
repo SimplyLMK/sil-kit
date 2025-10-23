@@ -1,0 +1,20 @@
+# CMake generated Testfile for 
+# Source directory: D:/SIL/sil-kit/SilKit/source/services/orchestration
+# Build directory: D:/SIL/sil-kit/build/SilKit/source/services/orchestration
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(Test_LifecycleService "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_LifecycleService_gtestresults.xml" "--gtest_filter=Test_LifecycleService.*")
+set_tests_properties(Test_LifecycleService PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;62;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")
+add_test(Test_SystemController "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_SystemController_gtestresults.xml" "--gtest_filter=Test_SystemController.*")
+set_tests_properties(Test_SystemController PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;66;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")
+add_test(Test_SystemMonitor "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_SystemMonitor_gtestresults.xml" "--gtest_filter=Test_SystemMonitor.*")
+set_tests_properties(Test_SystemMonitor PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;70;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")
+add_test(Test_WatchDog "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_WatchDog_gtestresults.xml" "--gtest_filter=Test_WatchDog.*")
+set_tests_properties(Test_WatchDog PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;74;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")
+add_test(Test_SyncSerdes "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_SyncSerdes_gtestresults.xml" "--gtest_filter=Test_SyncSerdes.*")
+set_tests_properties(Test_SyncSerdes PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;78;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")
+add_test(Test_TimeProvider "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_TimeProvider_gtestresults.xml" "--gtest_filter=Test_TimeProvider.*")
+set_tests_properties(Test_TimeProvider PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;79;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")
+add_test(Test_TimeSyncService "D:/SIL/sil-kit/build/Release/SilKitUnitTests.exe" "--gtest_output=xml:Test_TimeSyncService_gtestresults.xml" "--gtest_filter=Test_TimeSyncService.*")
+set_tests_properties(Test_TimeSyncService PROPERTIES  WORKING_DIRECTORY "D:/SIL/sil-kit/build/Release" _BACKTRACE_TRIPLES "D:/SIL/sil-kit/SilKit/cmake/SilKitTest.cmake;111;add_test;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;80;add_silkit_test_to_executable;D:/SIL/sil-kit/SilKit/source/services/orchestration/CMakeLists.txt;0;")

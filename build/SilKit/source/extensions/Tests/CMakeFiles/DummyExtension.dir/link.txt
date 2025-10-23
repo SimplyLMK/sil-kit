@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\DummyExtension.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\DummyExtension.dir/objects.a @CMakeFiles\DummyExtension.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -O3 -DNDEBUG -shared -o ..\..\..\..\Release\silkit_library_test\DummyExtension.dll -Wl,--out-implib,..\..\..\..\Release\silkit_library_test\libDummyExtension.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\DummyExtension.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\DummyExtension.dir\linkLibs.rsp

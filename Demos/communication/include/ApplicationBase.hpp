@@ -38,6 +38,16 @@ struct Arguments
     std::chrono::nanoseconds sleep = 1000ms;
     bool asFastAsPossible{false};
 };
+
+// LKM2HC- mod
+// struct IMUData
+// {
+//     double accel_x;
+//     double accel_y;
+//     double accel_z;
+// };
+
+
 std::shared_ptr<SilKit::Config::IParticipantConfiguration> _participantConfiguration{nullptr};
 
 std::ostream& operator<<(std::ostream& out, std::chrono::nanoseconds timestamp)

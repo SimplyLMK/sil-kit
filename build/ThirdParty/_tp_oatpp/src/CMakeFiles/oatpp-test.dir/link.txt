@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc liboatpp-test.a "CMakeFiles/oatpp-test.dir/oatpp-test/Checker.cpp.obj" "CMakeFiles/oatpp-test.dir/oatpp-test/UnitTest.cpp.obj"
+C:\msys64\mingw64\bin\ranlib.exe liboatpp-test.a
