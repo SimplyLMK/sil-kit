@@ -218,6 +218,20 @@ SilKitDemoSubscriber/fast:
 	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\SilKitDemoSubscriber.dir\build.make Demos/communication/PubSub/CMakeFiles/SilKitDemoSubscriber.dir/build
 .PHONY : SilKitDemoSubscriber/fast
 
+# Convenience name for target.
+Demos/communication/PubSub/CMakeFiles/kalman.dir/rule:
+	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Demos/communication/PubSub/CMakeFiles/kalman.dir/rule
+.PHONY : Demos/communication/PubSub/CMakeFiles/kalman.dir/rule
+
+# Convenience name for target.
+kalman: Demos/communication/PubSub/CMakeFiles/kalman.dir/rule
+.PHONY : kalman
+
+# fast build rule for target.
+kalman/fast:
+	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\kalman.dir\build.make Demos/communication/PubSub/CMakeFiles/kalman.dir/build
+.PHONY : kalman/fast
+
 PublisherDemo.obj: PublisherDemo.cpp.obj
 .PHONY : PublisherDemo.obj
 
@@ -266,6 +280,30 @@ SubscriberDemo.cpp.s:
 	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\SilKitDemoSubscriber.dir\build.make Demos/communication/PubSub/CMakeFiles/SilKitDemoSubscriber.dir/SubscriberDemo.cpp.s
 .PHONY : SubscriberDemo.cpp.s
 
+kalman.obj: kalman.cpp.obj
+.PHONY : kalman.obj
+
+# target to build an object file
+kalman.cpp.obj:
+	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\kalman.dir\build.make Demos/communication/PubSub/CMakeFiles/kalman.dir/kalman.cpp.obj
+.PHONY : kalman.cpp.obj
+
+kalman.i: kalman.cpp.i
+.PHONY : kalman.i
+
+# target to preprocess a source file
+kalman.cpp.i:
+	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\kalman.dir\build.make Demos/communication/PubSub/CMakeFiles/kalman.dir/kalman.cpp.i
+.PHONY : kalman.cpp.i
+
+kalman.s: kalman.cpp.s
+.PHONY : kalman.s
+
+# target to generate assembly for a file
+kalman.cpp.s:
+	cd /d D:\SIL\sil-kit\build && $(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\kalman.dir\build.make Demos/communication/PubSub/CMakeFiles/kalman.dir/kalman.cpp.s
+.PHONY : kalman.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -283,12 +321,16 @@ help:
 	@echo ... test
 	@echo ... SilKitDemoPublisher
 	@echo ... SilKitDemoSubscriber
+	@echo ... kalman
 	@echo ... PublisherDemo.obj
 	@echo ... PublisherDemo.i
 	@echo ... PublisherDemo.s
 	@echo ... SubscriberDemo.obj
 	@echo ... SubscriberDemo.i
 	@echo ... SubscriberDemo.s
+	@echo ... kalman.obj
+	@echo ... kalman.i
+	@echo ... kalman.s
 .PHONY : help
 
 

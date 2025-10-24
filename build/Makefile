@@ -1582,6 +1582,19 @@ SilKitDemoSubscriber/fast:
 .PHONY : SilKitDemoSubscriber/fast
 
 #=============================================================================
+# Target rules for targets named kalman
+
+# Build rule for target.
+kalman: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 kalman
+.PHONY : kalman
+
+# fast build rule for target.
+kalman/fast:
+	$(MAKE) $(MAKESILENT) -f Demos\communication\PubSub\CMakeFiles\kalman.dir\build.make Demos/communication/PubSub/CMakeFiles/kalman.dir/build
+.PHONY : kalman/fast
+
+#=============================================================================
 # Target rules for targets named SilKitDemoRpcServer
 
 # Build rule for target.
@@ -1836,6 +1849,7 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... kalman
 	@echo ... oatpp
 	@echo ... oatpp-test
 	@echo ... rapidyaml-static

@@ -681,6 +681,7 @@ D:/SIL/sil-kit/build/Demos/communication/Lin/CMakeFiles/install/local.dir
 D:/SIL/sil-kit/build/Demos/communication/Lin/CMakeFiles/install/strip.dir
 D:/SIL/sil-kit/build/Demos/communication/PubSub/CMakeFiles/SilKitDemoPublisher.dir
 D:/SIL/sil-kit/build/Demos/communication/PubSub/CMakeFiles/SilKitDemoSubscriber.dir
+D:/SIL/sil-kit/build/Demos/communication/PubSub/CMakeFiles/kalman.dir
 D:/SIL/sil-kit/build/Demos/communication/PubSub/CMakeFiles/package.dir
 D:/SIL/sil-kit/build/Demos/communication/PubSub/CMakeFiles/package_source.dir
 D:/SIL/sil-kit/build/Demos/communication/PubSub/CMakeFiles/test.dir

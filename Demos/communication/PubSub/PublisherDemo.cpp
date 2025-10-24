@@ -24,12 +24,15 @@ std::vector<uint8_t> SerializeIMUData(const IMUData& imu)
     return buffer;
 }
 
+// The Data Publish/Subscribe API provides a topic-based publish/subscribe mechanism to exchange serialized application data
 class Publisher : public ApplicationBase
 {
 public:
     using ApplicationBase::ApplicationBase;
 
 private:
+
+    // IDataPublisher is instantiated from an IParticipant instance by calling the CreateDataPublisher()
     SilKit::Services::PubSub::IDataPublisher* _imuPublisher{nullptr};
     std::vector<IMUData> _imuData;
     size_t _currentIndex{0};
@@ -37,12 +40,13 @@ private:
     void AddCommandLineArgs() override {}
     void EvaluateCommandLineArgs() override {}
 
+    // we want to overide CreateControllers, which IRL would be handling CAN data but in our case make it publish our own bin imu data
     void CreateControllers() override
     {
         using namespace SilKit::Services::PubSub;
         using SilKit::Services::MatchingLabel;
 
-        // Setup PubSubSpec correctly following SIL Kit API
+        // API documentation https://vectorgrp.github.io/sil-kit-docs/api/services/pubsub.html#_CPPv4N6SilKit8Services6PubSub10PubSubSpecE
         PubSubSpec imuSpec{"IMU/NoisyData", "application/octet-stream"};
 
         imuSpec.AddLabel("Sensor", "IMU", MatchingLabel::Kind::Optional);
@@ -57,7 +61,7 @@ private:
 
     void InitControllers() override
     {
-        const std::string dataPath = "D:\\SIL\\dataset_v3\\MEMS-IMU-Denoising\\data\\binary\\X_train_noisy.bin";
+        const std::string dataPath = "D:\\SIL\\sil-kit\\data\\binary\\X_train_noisy.bin";
         LoadIMUBinary(dataPath);
     }
 
@@ -100,11 +104,12 @@ private:
             return;
 
         if (_currentIndex >= _imuData.size())
-            _currentIndex = 0; // loop back
+            _currentIndex = 0; 
 
         const IMUData& imu = _imuData[_currentIndex++];
         auto serialized = SerializeIMUData(imu);
 
+        // Data can be transmitted using the Publish() method of an IDataPublisher instance
         _imuPublisher->Publish(serialized);
 
         std::stringstream ss;
@@ -113,12 +118,15 @@ private:
         GetLogger()->Debug(ss.str());
     }
 
+    // Called in each simulation step when running with time synchronization
     void DoWorkSync(std::chrono::nanoseconds /*now*/) override
     {
         PublishNextSample();
         std::this_thread::sleep_for(std::chrono::milliseconds(5)); // 200 Hz
     }
 
+
+    // Called in a worker thread when running without time synchronization
     void DoWorkAsync() override
     {
         PublishNextSample();

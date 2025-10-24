@@ -4,3 +4,4 @@
 
 make_silkit_communication_demo(SilKitDemoPublisher PublisherDemo.cpp)
 make_silkit_communication_demo(SilKitDemoSubscriber SubscriberDemo.cpp)
+make_silkit_communication_demo(kalman kalman.cpp)
