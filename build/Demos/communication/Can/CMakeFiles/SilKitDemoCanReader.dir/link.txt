@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SilKitDemoCanReader.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\SilKitDemoCanReader.dir/objects.a @CMakeFiles\SilKitDemoCanReader.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\SilKitDemoCanReader.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\Release\SilKitDemoCanReader.exe -Wl,--out-implib,libSilKitDemoCanReader.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SilKitDemoCanReader.dir\linkLibs.rsp

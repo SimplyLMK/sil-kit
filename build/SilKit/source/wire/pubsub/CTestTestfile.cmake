@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: D:/SIL/sil-kit/SilKit/source/wire/pubsub
-# Build directory: D:/SIL/sil-kit/build/SilKit/source/wire/pubsub
+# Source directory: A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/SilKit/source/wire/pubsub
+# Build directory: A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/wire/pubsub
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

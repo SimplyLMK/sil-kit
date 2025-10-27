@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "3.0.0")
    message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 3.0.0...3.30)
+cmake_policy(VERSION 3.0.0...3.31)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -51,7 +51,7 @@ add_library(fmt::fmt STATIC IMPORTED)
 
 set_target_properties(fmt::fmt PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/SIL/sil-kit/ThirdParty/fmt/include"
+  INTERFACE_INCLUDE_DIRECTORIES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/ThirdParty/fmt/include"
 )
 
 # Create imported target fmt::fmt-header-only
@@ -60,14 +60,14 @@ add_library(fmt::fmt-header-only INTERFACE IMPORTED)
 set_target_properties(fmt::fmt-header-only PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FMT_HEADER_ONLY=1"
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/SIL/sil-kit/ThirdParty/fmt/include"
+  INTERFACE_INCLUDE_DIRECTORIES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/ThirdParty/fmt/include"
 )
 
 # Import target "fmt::fmt" for configuration "Release"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "D:/SIL/sil-kit/build/ThirdParty/_tp_fmt/libfmt.a"
+  IMPORTED_LOCATION_RELEASE "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/ThirdParty/_tp_fmt/libfmt.a"
   )
 
 # This file does not depend on other imported targets which have

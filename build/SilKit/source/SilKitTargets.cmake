@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "3.0.0")
    message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 3.0.0...3.30)
+cmake_policy(VERSION 3.0.0...3.31)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(SilKit::SilKitInterface INTERFACE IMPORTED)
 
 set_target_properties(SilKit::SilKitInterface PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "D:/SIL/sil-kit/SilKit/include"
+  INTERFACE_INCLUDE_DIRECTORIES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/SilKit/include"
 )
 
 # Create imported target SilKit::SilKit
@@ -63,8 +63,8 @@ set_target_properties(SilKit::SilKit PROPERTIES
 # Import target "SilKit::SilKit" for configuration "Release"
 set_property(TARGET SilKit::SilKit APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(SilKit::SilKit PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "D:/SIL/sil-kit/build/Release/libSilKit.dll.a"
-  IMPORTED_LOCATION_RELEASE "D:/SIL/sil-kit/build/Release/SilKit.dll"
+  IMPORTED_IMPLIB_RELEASE "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Release/libSilKit.dll.a"
+  IMPORTED_LOCATION_RELEASE "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Release/SilKit.dll"
   )
 
 # This file does not depend on other imported targets which have

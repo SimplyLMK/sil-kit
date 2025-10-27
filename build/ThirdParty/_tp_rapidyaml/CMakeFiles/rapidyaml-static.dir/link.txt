@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc librapidyaml-static.a "CMakeFiles/rapidyaml-static.dir/rapidyaml-0.9.0.cpp.obj"
-C:\msys64\mingw64\bin\ranlib.exe librapidyaml-static.a
