@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc S_Test_Hourglass.a CMakeFiles/S_Test_Hourglass.dir/MockCapi.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe S_Test_Hourglass.a

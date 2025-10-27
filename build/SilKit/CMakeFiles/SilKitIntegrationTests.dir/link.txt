@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SilKitIntegrationTests.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\SilKitIntegrationTests.dir/objects.a @CMakeFiles\SilKitIntegrationTests.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\SilKitIntegrationTests.dir/objects.a -Wl,--no-whole-archive -o ..\Release\SilKitIntegrationTests.exe -Wl,--out-implib,libSilKitIntegrationTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SilKitIntegrationTests.dir\linkLibs.rsp

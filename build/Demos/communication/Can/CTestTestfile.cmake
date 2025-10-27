@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: D:/SIL/sil-kit/Demos/communication/Can
-# Build directory: D:/SIL/sil-kit/build/Demos/communication/Can
+# Source directory: A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/Demos/communication/Can
+# Build directory: A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/Can
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

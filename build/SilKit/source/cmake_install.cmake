@@ -1,4 +1,4 @@
-# Install script for directory: D:/SIL/sil-kit/SilKit/source
+# Install script for directory: A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/SilKit/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/silkit/capi" TYPE FILE RENAME "SilKitVersionMacros.h" FILES "D:/SIL/sil-kit/build/SilKit/source/version_macros.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/silkit/capi" TYPE FILE RENAME "SilKitVersionMacros.h" FILES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/version_macros.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee]|[Dd][Ee][Bb][Uu][Gg]|[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/SIL/sil-kit/build/Release/libSilKit.dll.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Release/libSilKit.dll.a")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee]|[Dd][Ee][Bb][Uu][Gg]|[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "D:/SIL/sil-kit/build/Release/SilKit.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Release/SilKit.dll")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SilKit.dll" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SilKit.dll")
       if(CMAKE_INSTALL_DO_STRIP)
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit/SilKitTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit/SilKitTargets.cmake"
-         "D:/SIL/sil-kit/build/SilKit/source/CMakeFiles/Export/313f46aa7f44d236f4c10c1d1b975606/SilKitTargets.cmake")
+         "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/CMakeFiles/Export/313f46aa7f44d236f4c10c1d1b975606/SilKitTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit/SilKitTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -76,30 +76,30 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit" TYPE FILE FILES "D:/SIL/sil-kit/build/SilKit/source/CMakeFiles/Export/313f46aa7f44d236f4c10c1d1b975606/SilKitTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit" TYPE FILE FILES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/CMakeFiles/Export/313f46aa7f44d236f4c10c1d1b975606/SilKitTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit" TYPE FILE FILES "D:/SIL/sil-kit/build/SilKit/source/CMakeFiles/Export/313f46aa7f44d236f4c10c1d1b975606/SilKitTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SilKit" TYPE FILE FILES "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/CMakeFiles/Export/313f46aa7f44d236f4c10c1d1b975606/SilKitTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/SIL/sil-kit/build/SilKit/source/util/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/wire/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/config/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/tracing/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/core/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/services/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/extensions/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/capi/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/experimental/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/SilKit/source/dashboard/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/util/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/wire/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/config/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/tracing/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/core/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/services/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/extensions/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/capi/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/experimental/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/dashboard/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/SIL/sil-kit/build/SilKit/source/install_local_manifest.txt"
+  file(WRITE "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/SilKit/source/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

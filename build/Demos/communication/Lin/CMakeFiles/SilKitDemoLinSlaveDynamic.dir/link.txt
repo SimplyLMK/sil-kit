@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SilKitDemoLinSlaveDynamic.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\SilKitDemoLinSlaveDynamic.dir/objects.a @CMakeFiles\SilKitDemoLinSlaveDynamic.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\SilKitDemoLinSlaveDynamic.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\Release\SilKitDemoLinSlaveDynamic.exe -Wl,--out-implib,libSilKitDemoLinSlaveDynamic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SilKitDemoLinSlaveDynamic.dir\linkLibs.rsp

@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc O_SilKit_Dashboard.a CMakeFiles/O_SilKit_Dashboard.dir/client/DashboardSystemServiceClient.cpp.obj CMakeFiles/O_SilKit_Dashboard.dir/client/DashboardRetryPolicy.cpp.obj CMakeFiles/O_SilKit_Dashboard.dir/service/DashboardRestClient.cpp.obj CMakeFiles/O_SilKit_Dashboard.dir/service/SilKitToOatppMapper.cpp.obj CMakeFiles/O_SilKit_Dashboard.dir/OatppHeaders.cpp.obj CMakeFiles/O_SilKit_Dashboard.dir/DashboardInstance.cpp.obj CMakeFiles/O_SilKit_Dashboard.dir/CreateDashboardInstance.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe O_SilKit_Dashboard.a

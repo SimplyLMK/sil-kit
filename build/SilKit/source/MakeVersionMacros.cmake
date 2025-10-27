@@ -5,7 +5,7 @@
 set(gitHashFile "${CMAKE_CURRENT_BINARY_DIR}/git_hash_file")
 set(gitHeadFile "${CMAKE_CURRENT_BINARY_DIR}/git_head_file")
 
-configure_file("D:/SIL/sil-kit/SilKit/../.git/HEAD" ${gitHeadFile} COPYONLY)
+configure_file("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/SilKit/../.git/HEAD" ${gitHeadFile} COPYONLY)
 
 file(READ ${gitHeadFile} GIT_HEAD LIMIT 512)
 string(REGEX MATCH "^ref: (.*)\n" GIT_HEAD_REF ${GIT_HEAD})

@@ -1,4 +1,4 @@
-# Install script for directory: D:/SIL/sil-kit/Demos
+# Install script for directory: A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/Demos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/SIL/sil-kit/build/Demos/communication/Can/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/communication/Ethernet/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/communication/Flexray/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/communication/Lin/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/communication/PubSub/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/communication/Rpc/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/tools/Benchmark/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/api/SimpleCan/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/api/NetworkSimulator/cmake_install.cmake")
-  include("D:/SIL/sil-kit/build/Demos/api/Orchestration/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/Can/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/Ethernet/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/Flexray/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/Lin/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/PubSub/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/communication/Rpc/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/tools/Benchmark/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/api/SimpleCan/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/api/NetworkSimulator/cmake_install.cmake")
+  include("A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/api/Orchestration/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/SIL/sil-kit/build/Demos/install_local_manifest.txt"
+  file(WRITE "A:/My_Folders/Study/Research/2025 - 2026/IEEE CICC 2025/sil-kit/build/Demos/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
